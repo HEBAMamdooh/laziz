@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laziz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Health Companion</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="intro-content">
+            <h1>Laziz ... </h1></h1>
+            <p>Your Recipe Smart Assistant for a healthy lifestyle</p>
+            <a href="/app" class="btn">Launch App</a>
+        </div>
+        <div class="cover-image">
+            <img src="{{ url_for('static', filename='images/cover.jpg') }}" alt="Smart Assistance">
+        </div>
+    </section>
+
+    <!-- Placeholder for additional sections -->
+    <section id="features" class="features-section">
+    <h2>Key Features</h2>
+    <div class="features-container">
+        <!-- Feature 1 -->
+        <div class="feature">
+            <img src="{{ url_for('static', filename='images/meal_planning.jpg') }}" alt="Meal Planning">
+            <h3>Personalized Meal Planning</h3>
+            <p>Get tailored meal plans based on your dietary preferences, health goals, and feedback from our AI-driven system.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature">
+            <img src="{{ url_for('static', filename='images/fitness_tracker.jpg') }}" alt="Fitness Tracker Integration">
+            <h3>Fitness Tracker Integration</h3>
+            <p>Monitor your physical activity and sync data from your favorite fitness trackers for real-time insights.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature">
+            <img src="{{ url_for('static', filename='images/ai_suggestions.jpg') }}" alt="AI-based Suggestions">
+            <h3>AI-based Health Suggestions</h3>
+            <p>Receive personalized health improvement advice and dietary suggestions powered by AI, based on your progress.</p>
+        </div>
+    </div>
+  </section>
+
+<section id="about" class="about-section">
+    <h2>About the Project</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>This project was inspired by my personal journey toward leading a healthier lifestyle. As someone who struggled with maintaining a balanced diet and consistent exercise, I wanted to create a tool that could help people stay on track with their health goals. Combining AI-driven recommendations with data from fitness trackers and diet preferences, this web application provides a personalized approach to health and wellness. The project also allowed me to deepen my understanding of web development and machine learning techniques.</p>
+            <p>This Portfolio Project was developed as part of the Holberton School curriculum. It represents a combination of both my technical and personal growth over the course of the program. You can learn more about the project and contribute through the links below:</p>
+            <ul>
+                <li><a href="https://github.com/username/health-companion" target="_blank">GitHub Repository</a></li>
+            </ul>
+        </div>
+        <div class="team-section">
+            <h3>Meet the Team</h3>
+            <div class="team-member">
+                <p><strong>Heba Mamdooh</strong> - Full Stack Developer</p>
+                <ul class="social-links">
+                    <li><a href="https://www.linkedin.com/in/heba-mamdooh" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/heba-mamdooh" target="_blank">GitHub</a></li>
+                    <li><a href="https://twitter.com/heba_mamdooh" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with us for any inquiries or feedback.</p>
+    </section>
+
+</body>
+</html>
